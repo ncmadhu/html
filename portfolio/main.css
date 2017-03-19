@@ -49,7 +49,84 @@ h2  strong {
 	background: #999999 url(images/bg-header.png) top left;
 	padding: 20px 0 20px 0;
 }
-.projects {
-	background: #999999 url(images/bg-header.png) top left;
-	padding: 20px 0 20px 0;
+.projects, .skills {
+	padding: 10px 0 10px 0;
+	background-color: #E5E4E2;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.project-heading, .skill-heading {
+    padding: 10px;
+    color: #504A4B;
+}
+.project-heading h2, .skill-heading h2{
+    padding: 10px;
+    color: #504A4B;    
+    text-align: center;
+    display: inline;
+    font-size: 30px
+}
+.project-title {
+	padding: 10px;
+	background-color: #D1D0CE;
+	color: #504A4B; 
+	margin: 5px;
+	border: 1px solid;
+	border-style: dashed;
+}
+.project-detail, .skills-detail {
+	padding: 10px;
+	color: #504A4B; 
+	background-color: #D1D0CE;
+	margin: 5px;
+	border: 1px solid;
+	border-style: dashed;
+	line-height: 2;
+}
+.skills-used li {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #666362;
+	color: #ffffff;
+	display:inline;
+	padding: 8px 8px 8px 8px;
+}
+.footer {
+	padding: 0 0 10px 0;
+	background-color: #E5E4E2;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.footer-heading {
+    padding: 10px;
+    color: #504A4B;
+}
+.footer-heading h2{
+    padding: 10px;
+    color: #504A4B;    
+    text-align: center;
+    display: inline;
+    font-size: 30px
+}
+.footer-detail {
+	padding: 10px;
+	color: #504A4B; 
+	background-color: #D1D0CE;
+	margin: 5px;
+	border: 1px solid;
+	border-style: dashed;
+	line-height: 2;
+}
+.footer-detail h3{
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	display:inline;
+	text-align: center;
+	padding: 8px 8px 8px 8px;
+
+.footer-contact {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	display:inline;
+	text-align: center;
+	padding: 8px 8px 8px 8px;
 }
