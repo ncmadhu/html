@@ -8,40 +8,22 @@ html, head, body, h1, h2, h3, h4, p, div {
 	border: 0;
 	font: inherit;
 	font-size: 100%;
-	
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #FDEEF4;
 }
 
-h1 {
-	font-size: 60px;
-	font-weight: bold;
-	text-align: center;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-}
-h2 {
-	font-size: 22px;
-	font-weight: 10;
-	text-align: center;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	color: #ffffff;
-	width: 700px;
-	margin: 0 auto 0 auto;
-}
-h2  strong {
-	font-weight: 900;
-}
 .header {
-
 	background: #999999 url(images/bg-header.png) top left;
 	padding: 10px;
 }
 .header h1 {
 	font-size: 40px;
-	color: #FDEEF4;
 	text-align: left;
 	display: inline;
 }
 .header-button {
-	color: #FDEEF4;
 	display: inline;
 	float: right;
 }
@@ -49,19 +31,27 @@ h2  strong {
 	background: #999999 url(images/bg-header.png) top left;
 	padding: 20px 0 20px 0;
 }
-.projects, .skills {
-	padding: 10px 0 10px 0;
+.about h2 {
+	font-size: 22px;
+	font-weight: 10;
+	text-align: center;
+	color: #ffffff;
+	width: 700px;
+	margin: 0 auto 0 auto;
+}
+.about h2  strong {
+	font-weight: 900;
+}
+.projects, .skills, .footer {
+	padding: 5px 0 5px 0;
 	background-color: #E5E4E2;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #504A4B;
 }
 
-.project-heading, .skill-heading {
+.project-heading, .skill-heading, .footer-heading {
     padding: 10px;
-    color: #504A4B;
 }
-.project-heading h2, .skill-heading h2{
-    padding: 10px;
-    color: #504A4B;    
+.project-heading h2, .skill-heading h2, .footer-heading h2{
     text-align: center;
     display: inline;
     font-size: 30px
@@ -69,14 +59,12 @@ h2  strong {
 .project-title {
 	padding: 10px;
 	background-color: #D1D0CE;
-	color: #504A4B; 
 	margin: 5px;
 	border: 1px solid;
 	border-style: dashed;
 }
-.project-detail, .skills-detail {
+.project-detail, .skills-detail, .footer-detail {
 	padding: 10px;
-	color: #504A4B; 
 	background-color: #D1D0CE;
 	margin: 5px;
 	border: 1px solid;
@@ -84,49 +72,13 @@ h2  strong {
 	line-height: 2;
 }
 .skills-used li {
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: bold;
 	background-color: #666362;
 	color: #ffffff;
 	display:inline;
 	padding: 8px 8px 8px 8px;
 }
-.footer {
-	padding: 0 0 10px 0;
-	background-color: #E5E4E2;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-}
-.footer-heading {
-    padding: 10px;
-    color: #504A4B;
-}
-.footer-heading h2{
-    padding: 10px;
-    color: #504A4B;    
-    text-align: center;
-    display: inline;
-    font-size: 30px
-}
-.footer-detail {
-	padding: 10px;
-	color: #504A4B; 
-	background-color: #D1D0CE;
-	margin: 5px;
-	border: 1px solid;
-	border-style: dashed;
-	line-height: 2;
-}
-.footer-detail h3{
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
+.footer-detail i {
 	font-weight: bold;
-	display:inline;
-	text-align: center;
-	padding: 8px 8px 8px 8px;
-
-.footer-contact {
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	font-weight: bold;
-	display:inline;
-	text-align: center;
-	padding: 8px 8px 8px 8px;
+	margin: 8px;
 }
